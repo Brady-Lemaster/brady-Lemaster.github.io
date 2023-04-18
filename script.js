@@ -1,6 +1,4 @@
-alert("NOTICE!");
-alert("This chat does not allow extreme language.");
-alert("On breaking this rule account will be terminated.");
+alert("NOTICE! This chat does not allow extreme language. If you break this singular rule your account will be terminated and VMSS staff will be notified.");
 
 passwordatmpt = prompt("Enter Password");
 
@@ -23,6 +21,9 @@ function getName() {
   eptme="TmVvblllbGxvdzc2ODgxMw==";passwordtuckerm=atob(eptme);eptme="clr";
   if (passwordatmpt==passwordtuckerm) {username = "Tucker";}
   passwordtuckerm = "clr";
+  vmss="Vk1TUy1MT0dJTi1DUkVERU5USUFM";passwordvmss=atob(vmss);vmss="clr";
+  if (passwordatmpt==passwordvmss) {username = "VMSS";}
+  passwordvmss = "clr";
   return username
 }
 
