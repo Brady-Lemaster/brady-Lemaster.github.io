@@ -1,5 +1,5 @@
 import random
-def cmd(dice):
+def x(c):
   a=[]
   b=[]
   for i in dice.split('d'): 
