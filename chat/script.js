@@ -21,9 +21,6 @@ function getName() {
   eptme="TmVvblllbGxvdzc2ODgxMw==";passwordtuckerm=atob(eptme);eptme="clr";
   if (passwordatmpt==passwordtuckerm) {username = "Tucker";}
   passwordtuckerm = "clr";
-  vmss="Vk1TUy1MT0dJTi1DUkVERU5USUFM";passwordvmss=atob(vmss);vmss="clr";
-  if (passwordatmpt==passwordvmss) {username = "VMSS";}
-  passwordvmss = "clr";
   return username
 }
 
@@ -120,7 +117,7 @@ function createMemberElement(member) {
   const el = document.createElement('div');
   el.appendChild(document.createTextNode(name));
   el.className = 'member';
-  el.style.color = #FFFFFF;
+  el.style.color = #000000;
   return el;
 }
 
