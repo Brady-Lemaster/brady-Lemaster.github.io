@@ -1,6 +1,6 @@
 import random
 def cmd(dice):
-  b=[]
+  a=[]
   b=[]
   for i in dice.split('d'): 
     a.append(i)
