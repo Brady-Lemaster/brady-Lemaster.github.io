@@ -117,7 +117,7 @@ function createMemberElement(member) {
   const el = document.createElement('div');
   el.appendChild(document.createTextNode(name));
   el.className = 'member';
-  el.style.color = #000000;
+  el.style.color = 0x000000;
   return el;
 }
 
