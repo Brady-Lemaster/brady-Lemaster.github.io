@@ -1,9 +1,9 @@
 import random
-def x(c):
-  a=[]
-  b=[]
+def dieRoll(dice):
+  inputList=[]
+  outputList=[]
   for i in dice.split('d'): 
-    a.append(i)
-  for i in range(int(a[0])):
-    b.append(random.randint(1,int(a[1])))
-  return b
+    inputList.append(i)
+  for i in range(int(inputList[0])):
+    outputList.append(random.randint(1,int(inputList[1])))
+  return outputList
